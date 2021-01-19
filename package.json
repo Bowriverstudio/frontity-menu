@@ -1,0 +1,20 @@
+{
+	"name": "frontity-menu",
+	"version": "0.1.0",
+	"description": "Frontity Menu",
+	"homepage": "https://frontity.org",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://community.frontity.org"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Bowriverstudio/frontity-microsoft-clarity"
+	},
+	"dependencies": {},
+	"scripts": {
+		"test:ci": "../../node_modules/.bin/jest --ci --coverage",
+		"test": "../../node_modules/.bin/jest --watch",
+		"test:inspect": "node --inspect ../../node_modules/jest/bin/jest.js --watch --no-cache --runInBand"
+	},
+}
